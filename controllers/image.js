@@ -2,7 +2,7 @@ const Clarifai = require('clarifai');
 // import Clarifai from "clarifai";
 
 const app = new Clarifai.App({
-  apiKey: "4060302e88684205ac4cf81edf5bad47"
+  apiKey: process.env.API_CLARIFAI
 });
 
 // Further Models, see https://github.com/Clarifai/clarifai-javascript/blob/master/src/index.js
